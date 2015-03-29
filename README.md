@@ -14,7 +14,7 @@ Add your public key in a file named `foo.pub` inside the `keys` directory:
 
 Update the `authorized_keys` file:
 
-    make
+    ./build.sh
 
 Commit and push your changes:
 
@@ -28,7 +28,7 @@ Add your steam id in a file named `foo.id` inside the `steam` directory:
 
 Update the `steam_ids` file:
 
-    make
+    ./build.sh
 
 Commit and push your changes:
 
